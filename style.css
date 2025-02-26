@@ -1,4 +1,17 @@
 .display img {
-    width: 700px;
+    width: 1100px;
     height: 600px;
 }
+.display {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+justify-content: center;
+}
+
+.numbers {
+}
+
