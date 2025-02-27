@@ -5,6 +5,7 @@
 .display {
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .buttons {
@@ -15,3 +16,7 @@ justify-content: center;
 .numbers {
 }
 
+.answer {
+    position: absolute;
+margin-top: 10%;
+}

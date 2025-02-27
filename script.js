@@ -5,8 +5,8 @@ let answer = document.querySelector(".answer");
 
 // making the input into a calculations
 let calculateInput  = () => {
-    input.addEventListener('click', () => {  //adding click activated display 
-        event.target.textContent; // saves the value when button is clicked
+    input.addEventListener('click', (event) => { calculatorDisplay  //adding click activated display 
+        calculatorDisplay.textContent = event.target.textContent; // saves the value when button is clicked
         answer.textContent = input 
 })}     
 
