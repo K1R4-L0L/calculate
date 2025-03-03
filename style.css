@@ -1,3 +1,6 @@
+html, body  {
+    background-image: linear-gradient(to  right,  #8add64, #9b8afc );
+}
 .display img {
     width: 1100px;
     height: 600px;
@@ -6,17 +9,63 @@
     display: flex;
     justify-content: center;
     position: relative;
+    font-size: 14px; 
+    font-family:fantasy;
+color: rgb(52, 180, 62);
 }
+.title {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    font-size: 24px; 
+    font-family: cursive;
+color: darkslateblue;
+}
+
+
 
 .buttons {
+    margin-top: 1%;
     display: flex;
 justify-content: center;
+
+.btn {
+    width: 50px;
+    height: 30px;
+    color: rgb(2, 71, 20);
+    background-color: rgb(126, 255, 154);
 }
+}
+.btn:hover {  background-color: rgb(2, 71, 20);
+    color: rgb(126, 255, 154);}
+  
+
+
 
 .numbers {
+    margin-top: 2%;
 }
+.enter {
+    margin-top: 4%;
+  
+}
+.end {
+    margin-top: 4%;
 
+}
+.clear {
+    margin-top: 4%;
+}
+.solve {
+    margin-top: 4%;
+}
 .answer {
     position: absolute;
 margin-top: 10%;
 }
+
+#calculatorDisplay {
+    position: absolute;
+    margin-top: 10%;
+}
+
